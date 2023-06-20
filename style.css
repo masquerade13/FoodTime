@@ -608,7 +608,7 @@ rightsection 55841 */
 @media only screen and (max-width: 1140px) {
 
     .inside-first-block {
-        overflow-x: auto;
+        overflow-x: hidden;
     }
 
     nav2 {
@@ -732,6 +732,7 @@ rightsection 55841 */
 
 
 @media only screen and (max-width: 560px) {
+
     .fi-btn {
         padding: 3px 10px !important; 
     }
@@ -750,6 +751,17 @@ rightsection 55841 */
 
 
 @media only screen and (max-width: 768px) {
+
+    .all-text-content {
+        margin-top: 120px !important;
+    }
+
+    .se-txt-1 {
+        font-size: 25px !important;
+    }
+    .se-txt-2 {
+        font-size: 15px !important;
+    }
 
     .panel {
         padding: 29px 23px 20px 31px !important;
