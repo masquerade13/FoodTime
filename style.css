@@ -1255,6 +1255,7 @@ rightsection 55841 */
         justify-content: space-between;
         align-items: center;
         background-color: rgba(255, 139, 0, 0.05);
+        padding-bottom: 20px;
 
         .s-left-block {
             /* margin-top: 20px; */
