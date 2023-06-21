@@ -35,6 +35,10 @@ nav {
             font-size: 28.3446px;
             line-height: 160%;
             color: #396C03;
+            width: 141px;
+        }
+        .foodtime-logo-img{
+            margin-left: -5px;
         }
     }
 
@@ -764,7 +768,7 @@ rightsection 55841 */
     }
 
     .panel {
-        padding: 29px 23px 20px 31px !important;
+        padding: 9px 23px 20px 31px !important;
         font-size: 10px !important;
     }
 
@@ -948,7 +952,7 @@ rightsection 55841 */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: hsla(33, 100%, 50%, 0.05);
+    background-color: rgba(255, 139, 0, 0.05);
 
     .s-left-block {
         width: 46.319444%;
@@ -1024,7 +1028,7 @@ rightsection 55841 */
 .third-block {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     gap: 2.152777%;
@@ -1228,7 +1232,7 @@ rightsection 55841 */
     }
 
     .panel {
-        padding: 29px 23px 94px 31px;
+        padding: 9px 23px 94px 31px;
         display: none;
         overflow: hidden;
         font-family: 'Poppins';
@@ -1250,7 +1254,7 @@ rightsection 55841 */
         flex-direction: column-reverse;
         justify-content: space-between;
         align-items: center;
-        background-color: hsla(33, 100%, 50%, 0.05);
+        background-color: rgba(255, 139, 0, 0.05);
 
         .s-left-block {
             /* margin-top: 20px; */
@@ -1288,7 +1292,7 @@ rightsection 55841 */
 .seventh-block {
     margin-top: 105px;
     padding: 38px 0px 38px 0px;
-    background: hwb(33 0% 0% / 0.1);
+    background: rgba(255, 139, 0, 0.1);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1334,7 +1338,7 @@ rightsection 55841 */
     }
 
     .se-right-block {
-        padding-right: 6.875%;
+        padding-right: 6.705%;
         width: 56.25%;
 
         .seventh-images {
@@ -1357,7 +1361,7 @@ rightsection 55841 */
         gap: 2.152777%;
         padding: 105px 0% 105.01px 0%;
     }
-
+    
     .footer {
         display: flex;
         justify-content: space-between;
@@ -1373,7 +1377,7 @@ rightsection 55841 */
     .divf-1 {
         width: 100% !important;
     }
-
+    
     .sixth-block {
         flex-direction: column;
     }
@@ -1389,9 +1393,21 @@ rightsection 55841 */
         padding-left: 0% !important;
         width: 85% !important;
     }
-
+    
     .se-right-block {
         padding-right: 0% !important;
         width: 85% !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .loc-img {
+        display: none !important;
+    }
+    .search-txt {
+        display: none;
+    }
+    .mag-img img {
+        padding: 10px 10px 7px 10px;
     }
 }
